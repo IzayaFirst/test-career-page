@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
+import Router from 'next/router';
 
 class JobFormFill extends Component {
+    create(e) {
+        e.preventDefault();
+        Router.push({
+            pathname: '/job',
+            query: { 
+                title: 'getlinks' 
+            }
+        });
+    }
     render() {
         return (
             <div className="section">
@@ -235,18 +245,15 @@ class JobFormFill extends Component {
                                 <p className="control">
                                     <label className="checkbox">
                                     <input type="checkbox" />
-                                       <span style={{paddingLeft: 10}}>I agree to the M</span><a href="#">terms and conditions</a>
+                                       <span style={{paddingLeft: 10}}>I agree to the </span><a href="#">terms and conditions</a>
                                     </label>
                                 </p>
                             </div> 
                             <div className="field is-grouped">
                                 <p className="control">
-                                    <button className="button is-primary">Submit</button>
+                                    <button onClick={this.create.bind(this)}className="button is-primary">Submit</button>
                                 </p>
                             </div>                       
-                        </div>
-                        <div className="column">
-                        
                         </div>
                     </div>    
                 </div>
