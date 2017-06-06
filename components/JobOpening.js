@@ -25,7 +25,7 @@ class JobOpening extends Component {
                     {
                         job.map((val, index) => {
                             return(
-                                <div>
+                                <div key={index}>
                                     <div className="columns" style={{marginTop: 12}}>
                                         <div className="title"><a href="#">{val.title}</a></div>
                                     </div>

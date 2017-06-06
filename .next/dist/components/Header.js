@@ -34,9 +34,6 @@ var _head2 = _interopRequireDefault(_head);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = 'C:\\Users\\FirstZa\\Desktop\\next-career-page\\components\\Header.js';
-
-
 var Header = function (_Component) {
     (0, _inherits3.default)(Header, _Component);
 
@@ -49,33 +46,7 @@ var Header = function (_Component) {
     (0, _createClass3.default)(Header, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement(_head2.default, {
-                __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 7
-                }
-            }, _react2.default.createElement('title', {
-                __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 8
-                }
-            }, 'My page title'), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 9
-                }
-            }), _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Raleway', rel: 'stylesheet', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 10
-                }
-            }), _react2.default.createElement('link', { rel: 'stylesheet', href: '/static/bulma.css', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 11
-                }
-            }), _react2.default.createElement('script', { src: 'https://use.fontawesome.com/12e462bd5f.js', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 12
-                }
-            }));
+            return _react2.default.createElement(_head2.default, null, _react2.default.createElement('title', null, 'My page title'), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width' }), _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Raleway', rel: 'stylesheet' }), _react2.default.createElement('link', { rel: 'stylesheet', href: '/static/bulma.css' }), _react2.default.createElement('script', { src: 'https://use.fontawesome.com/12e462bd5f.js' }));
         }
     }]);
 
