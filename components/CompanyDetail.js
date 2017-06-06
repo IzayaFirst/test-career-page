@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class JobDetail extends Component {
+class CompanyDetail extends Component {
     render() {
         return (
            <section className="section" style={{backgroundColor: '#1A3B46'}}>
@@ -8,8 +8,8 @@ class JobDetail extends Component {
                     <div className="heading">
                         <div className="columns">
                             <div className="column is-2">
-                                <figure className="image is-30x128">
-                                    <img src="/static/getlink.png"/>
+                                <figure className="image is-128x128">
+                                    <img src="http://bulma.io/images/placeholders/128x128.png"/>
                                 </figure>
                             </div>
                         </div>
@@ -18,6 +18,13 @@ class JobDetail extends Component {
                                 <h1 className="title white-font">
                                     {this.props.title}
                                 </h1>
+                            </div>
+                        </div>
+                        <div className="columns">
+                            <div className="column is-6">
+                                <p className="white-font">
+                                 {this.props.subtitle}
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -34,4 +41,4 @@ class JobDetail extends Component {
     }
 }
 
-export default JobDetail;
+export default CompanyDetail;
