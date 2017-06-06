@@ -43,7 +43,7 @@ class JobContainer extends Component {
                         {
                             test.map((val, index) => {
                                    return(
-                                       <tr>
+                                       <tr key={index}>
                                             <td>
                                                 <div className="alignment">{val.name}</div>
                                             </td>
@@ -56,7 +56,7 @@ class JobContainer extends Component {
                                                 />
                                             </td>
                                             <td>
-                                                <div className="alignment">
+                                                <div className="alignment right">
                                                     <button className="button ">
                                                         ...
                                                     </button>
@@ -75,6 +75,9 @@ class JobContainer extends Component {
                              text-align: center;
                              vartical-align: middle
                         }    
+                        .right {
+                            text-align: right;
+                        }
                     `}
                 </style>
            </div>

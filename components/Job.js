@@ -23,20 +23,15 @@ class Job extends Component {
                             </div>
                         </div>
                         <div className="column">
-                            <div className="alignment">
+                            <div className="alignment corner">
                                     <div>{this.props.hired}</div> 
                                     <div>Hired</div>  
                             </div>
-                        </div>                        
-                        <style jsx>
-                            {`
-                                .alignment {
-                                    padding: 1.625rem 0.9375rem 0;
-                                    text-align: center;
-                                    vartical-align: middle
-                                }    
-                            `}
-                        </style>
+                        </div>
+                        <style jsx>{`
+                            .corner
+                        `}
+                        </style>                        
                     </div>  
         );
     }
