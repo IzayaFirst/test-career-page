@@ -12,9 +12,17 @@ class Navbar extends Component {
                     </div>
                     <div className="nav-right">
                         <a className="nav-item">
-                            <Link href="/login" ><button className="button is-primary">Login</button></Link>
+                            <Link href="/login" ><div className="button is-primary">Login</div></Link>
                         </a>
                     </div>
+                    <style jsx>
+                    {`
+                        .nav {
+                            border-bottom: 1px solid #e4e4e4 !important;
+                            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2) !important;
+                        }
+                    `}
+                    </style>                    
                 </nav>
         );
     }
