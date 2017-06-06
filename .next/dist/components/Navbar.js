@@ -73,11 +73,11 @@ var Navbar = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 14
                 }
-            }, _react2.default.createElement(_link2.default, { href: '', __source: {
+            }, _react2.default.createElement(_link2.default, { href: '/login', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 15
                 }
-            }, _react2.default.createElement('a', { href: '/login', className: 'button is-primary', __source: {
+            }, _react2.default.createElement('button', { className: 'button is-primary', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 15
                 }

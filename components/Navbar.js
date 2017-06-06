@@ -12,7 +12,7 @@ class Navbar extends Component {
                     </div>
                     <div className="nav-right">
                         <a className="nav-item">
-                            <Link href=""><a href="/login" className="button is-primary">Login</a></Link>
+                            <Link href="/login" ><button className="button is-primary">Login</button></Link>
                         </a>
                     </div>
                 </nav>
