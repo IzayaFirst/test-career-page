@@ -71,6 +71,10 @@ var Header = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 11
                 }
+            }), _react2.default.createElement('script', { src: 'https://use.fontawesome.com/12e462bd5f.js', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 12
+                }
             }));
         }
     }]);

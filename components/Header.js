@@ -9,6 +9,7 @@ class Header extends Component {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />    
                 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
                 <link rel="stylesheet" href="/static/bulma.css"/>
+                <script src="https://use.fontawesome.com/12e462bd5f.js"></script>
             </Head>
         );
     }
